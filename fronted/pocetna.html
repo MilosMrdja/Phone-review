@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>Recenzije Telefona</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <script src="jquery-1.11.0.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="index.js" charset="utf-8"></script>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    <ul>
+  <li><a class="active" href="pocetna.html">Home</a></li>
+  <li><a onclick="grahFunkcija(0)" href="stranica1.html">Samsung Galaxy Note 20 Ultra</a></li>
+  <li><a onclick="grahFunkcija(1)" href="stranica1.html">iPhone 12 pro</a></li>
+  <li><a onclick="grahFunkcija(2)" href="stranica1.html">One Plus 8 pro</a></li>
+</ul>
+    <div class="container-fluid-padding">
+        <div class="row ponuda text-center">
+            <div class="col-12">
+                <h1 class="display-4">Recenzije</h1>
+            </div>
+        </div>
+        <hr class="light">
+    </div>
+    
+    <div class="container-fluid text-center padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" id="slika1" src="samsung.jpg" alt="slika1">
+                <div class="card-body">
+                    <h2 id="tel">Samsung Galaxy Note 20 Ultra</h2>
+                    <span id="telr"></span><br>
+                    <span id="telp"></span><br>
+                    <a onclick="global(0)" href="stranica1.html" target="_blank" class="btn btn-outline-info">more</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" id="slika2" src="iphone.jpg" alt="slika2">
+                <div class="card-body">
+                    <h2 id="telA">iPhone 12 pro</h2>
+                    <span id="telrA"></span><br>
+                    <span id="telpA"></span><br>
+                    <a onclick="global(1)" href="stranica1.html" target="_blank" class="btn btn-outline-info">more</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top " id="slika3" src="oneplus.jpg" alt="slika3">
+                <div class="card-body">
+                    <h2 id="telB">One Plus 8 pro</h2>
+                    <span id="telrB"></span><br>
+                    <span id="telpB"></span><br>
+                    <a onclick="global(2)" href="stranica1.html" target="_blank" class="btn btn-outline-info">more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <br>
+</body>
+
+</html>
